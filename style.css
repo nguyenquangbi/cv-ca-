@@ -1,4 +1,4 @@
-/* --- Thiết lập cơ bản --- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +25,7 @@ a {
     color: #a3b3c9;
 }
 
-/* --- Layout Classes (Phong cách của bạn) --- */
+
 .full-container {
     width: 100%;
 }
@@ -35,7 +35,7 @@ a {
     margin: 0 auto;
 }
 
-/* Hệ thống chia cột bằng Float */
+
 .col-2 {
     width: 50%;
     float: left;
@@ -51,13 +51,10 @@ a {
     float: left;
 }
 
-/* Dành cho menu ở giữa */
-
 .clear {
     clear: both;
 }
 
-/* Các class tiện ích */
 .float-left {
     float: left;
 }
@@ -91,7 +88,6 @@ a {
     height: auto;
 }
 
-/* --- Thành phần dùng chung (Nút bấm, Tags) --- */
 button {
     padding: 12px 25px;
     font-family: 'JetBrains Mono', monospace;
@@ -144,9 +140,6 @@ button {
     background-color: #0a121e;
 }
 
-/* --- Tùy chỉnh từng Section --- */
-
-/* Header */
 .header {
     background-color: rgba(3, 6, 11, 0.9);
     border-bottom: 1px solid #121d2c;
@@ -178,7 +171,6 @@ button {
     border-bottom: 2px solid #4be3ff;
 }
 
-/* Section 1: Hero */
 .section-1 {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -201,7 +193,6 @@ button {
     background-color: #070c14;
 }
 
-/* Section 2: Experience */
 .section-2 {
     background-color: rgba(7, 12, 20, 0.5);
     border-top: 1px solid #121d2c;
@@ -227,7 +218,6 @@ button {
     margin-top: 5px;
 }
 
-/* Section 3: Skills */
 .section-3 {
     padding: 80px 0;
 }
@@ -251,7 +241,6 @@ button {
     display: inline-block;
 }
 
-/* Section 4: Contact */
 .section-4 {
     padding: 100px 0;
     border-top: 1px solid #121d2c;
@@ -267,7 +256,6 @@ button {
     margin: 0 auto 40px;
 }
 
-/* Footer */
 .footer {
     border-top: 1px solid #121d2c;
     padding: 30px 0;
